@@ -1,7 +1,6 @@
 <<<<<<< HEAD
-import React, { useEffect, useState } from 'react'
-const API = (import.meta.env.VITE_API_URL || 'http://localhost:4000')
-
+import React, { useEffect, useState } from "react";
+import { API_BASE } from "./api";
 export default function App() {
   const [products, setProducts] = useState([])
   const [loading, setLoading] = useState(true)
